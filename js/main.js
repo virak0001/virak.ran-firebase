@@ -45,14 +45,6 @@ function udelete(userID) {
     database.collection("students").doc(userID).delete();
 }
 
-function uUpdate(id){
-    
-}
-
-$("#edit").click(function (id) {
-   
-});
-
 $id =0;
 $old_gender ="";
 function edit(id){
